@@ -18,7 +18,7 @@
             <TextBox HorizontalAlignment="Left" Margin="380,91,-173,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
             <Button Content="Ajouter plus d'équipes" HorizontalAlignment="center" FontSize="20em" Margin="0,157,0,0" VerticalAlignment="Top" Height="41" Width="236"/>
         </Grid>
-        <Button Content="Valider" HorizontalAlignment="Right" Margin="0,0,40,40" VerticalAlignment="Bottom" Height="39" Width="113"/>
+        <Button x:ConnectionId='2' Content="Valider" HorizontalAlignment="Right" Margin="0,0,40,40" VerticalAlignment="Bottom"                    Height="39" Width="113"/>
 
 
 

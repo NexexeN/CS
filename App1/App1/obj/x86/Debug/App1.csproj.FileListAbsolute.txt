@@ -213,3 +213,8 @@ C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\MultipleQuali
 C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\resources.en-us.resfiles
 C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\resources.en-us.resfiles.intermediate
 C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\bin\x86\Debug\Page2.xbf
+C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\Page2.g.i.cs
+C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\Page2.g.cs
+C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\Page2.xaml
+C:\Users\qjb\Documents\GitHub\ProjectCSGO2\App1\App1\obj\x86\Debug\Page2.xbf
