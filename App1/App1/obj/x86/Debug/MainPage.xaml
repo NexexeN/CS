@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' HorizontalAlignment="Center" Margin="0,36,0,0" Text="Tournoi CSGO 2018" FontSize="50em" FontFamily="Viner Hand ITC" TextWrapping="Wrap" VerticalAlignment="Top" Height="76"                                               Width="439"/>
+        <Grid HorizontalAlignment="Center" Margin="0,110,0,0">
+            <TextBlock HorizontalAlignment="Left" Margin="-19,19,0,0" Text="Nom du Tournoi :" FontSize="30em" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="237"/>
+            <TextBox HorizontalAlignment="Left" Margin="223,19,-16,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
+            <TextBlock HorizontalAlignment="Left" Margin="-153,91,0,0" Text="Equipe 1 :" FontSize="30em" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="135"/>
+            <TextBox HorizontalAlignment="Left" Margin="-13,91,0,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
+            <TextBlock HorizontalAlignment="Left" Margin="240,91,0,0" Text="Equipe 2 :" FontSize="30em" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="135"/>
+            <TextBox HorizontalAlignment="Left" Margin="380,91,-173,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
+            <Button Content="Ajouter plus d'équipes" HorizontalAlignment="center" FontSize="20em" Margin="0,157,0,0" VerticalAlignment="Top" Height="41" Width="236"/>
+        </Grid>
+        <Button Content="Valider" HorizontalAlignment="Right" Margin="0,0,40,40" VerticalAlignment="Bottom" Height="39" Width="113"/>
+
+
+
+    </Grid>
+</Page>
+
