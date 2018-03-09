@@ -16,7 +16,7 @@
             <TextBox HorizontalAlignment="Left" Margin="-13,91,0,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
             <TextBlock HorizontalAlignment="Left" Margin="240,91,0,0" Text="Equipe 2 :" FontSize="30em" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="135"/>
             <TextBox HorizontalAlignment="Left" Margin="380,91,-173,0" FontSize="20em" Padding="5,5,0,0" VerticalAlignment="Top" Height="42" Width="201"/>
-            <Button Content="Ajouter plus d'équipes" HorizontalAlignment="center" FontSize="20em" Margin="0,157,0,0" VerticalAlignment="Top" Height="41" Width="236"/>
+            <Button Content="Ajouter plus d'équipes" HorizontalAlignment="center" FontSize="20em" Margin="0,157,0,0" VerticalAlignment="Top" Height="41" Width="236" Click="Button_Click"/>
         </Grid>
         <Button Content="Valider" HorizontalAlignment="Right" Margin="0,0,40,40" VerticalAlignment="Bottom" Click="Validation" Height="39" Width="113"/>
 

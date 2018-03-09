@@ -133,13 +133,13 @@ namespace App1.App1_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[4];
-            _typeNameTable[0] = "App1.BlankPage1";
+            _typeNameTable[0] = "App1.Page2";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "App1.MainPage";
 
             _typeTable = new global::System.Type[4];
-            _typeTable[0] = typeof(global::App1.BlankPage1);
+            _typeTable[0] = typeof(global::App1.Page2);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::App1.MainPage);
@@ -177,7 +177,7 @@ namespace App1.App1_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BlankPage1() { return new global::App1.BlankPage1(); }
+        private object Activate_0_Page2() { return new global::App1.Page2(); }
         private object Activate_3_MainPage() { return new global::App1.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -190,9 +190,9 @@ namespace App1.App1_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  App1.BlankPage1
+            case 0:   //  App1.Page2
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_BlankPage1;
+                userType.Activator = Activate_0_Page2;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
